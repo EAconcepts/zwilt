@@ -1,8 +1,16 @@
+import { Route, Routes } from "react-router-dom"
+import TopNav from "./components/TopNav"
+import Home from "./Home"
 
 function App() {
 
   return (
-    <h1 className="text-3xl font-bold underline text-center">Hello world!</h1>
+   <div className="font-switzer">
+    <TopNav/>
+    <Routes>
+      <Route exact path="/" element={<Home/>}/>
+    </Routes>
+   </div>
   )
 
 }
