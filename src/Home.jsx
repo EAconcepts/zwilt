@@ -4,6 +4,7 @@ import graidentBg from "./assets/gradient-bg.png";
 import Explore from "./components/Explore";
 import HowItWorked from "./components/HowItWorked";
 import Screening from "./components/Screening";
+import Journey from "./components/Journey";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Explore />
       <HowItWorked />
       <Screening />
+      <Journey />
     </div>
   );
 };

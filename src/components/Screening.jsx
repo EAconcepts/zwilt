@@ -3,7 +3,7 @@ import play from "../assets/play.png";
 import playBlue from "../assets/play-blue.svg";
 const Screening = () => {
   return (
-    <div className="pt-[149px] px-[70px] w-[750px]">
+    <div className="pt-[149px] pb-[92px] px-[70px] w-[750px]">
       <h1 className="font-[700] text-[54px] leading-[64px] text-[#202229]">
         How we ensure you’re in good hands.
       </h1>
